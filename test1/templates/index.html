@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Dogs API</title>
+</head>
+
+<body>
+    <h1>The dog breeds are: </h1>
+    <ul>
+        {% for key, value in message.items %}
+        <strong>
+            <li>{{ key }}</li>
+        </strong>
+        <ol>
+            {% for i in value %}
+            <li>{{i}}</li>
+            {% endfor %}
+        </ol>
+        {% endfor %}
+    </ul>
+    <hr>
+    <form action="photo/" , method="GET">
+        Breed:
+        <input type="text" name="for_breed">
+        <br>
+        Sub-Breed:
+        <input type="text" name="for_sub_breed" >
+        <button type="submit" >Show Image</button>
+    </form>
+
+</body>
+
+</html>
