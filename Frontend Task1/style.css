@@ -1,0 +1,30 @@
+@keyframes change-color {
+	from {background-color:rgb(38, 74, 74);}
+	to {background-color:rgb(39, 39, 79)}
+}
+
+//.social {
+	animation-name: change-color;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+body {
+ // background-image: url('photo_2022-09-14_11-56-40.jpg');
+  
+}
+
+@keyframes rotation {
+	from {
+        transform: rotate(-30deg);
+    }
+    to {
+        transform: rotate(30deg);
+    }
+}
+
+.image_rotate {
+	animation: rotation 1s infinite linear;
+	animation-direction: alternate;
+}
+

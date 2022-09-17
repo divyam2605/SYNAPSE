@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Divyam Dedhia</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body style="background-color:gainsboro">
+		<h1 style="text-shadow: 2px 2px 2px red; font-family:lucida calligraphy; font-size:50px; padding-left:50px; color:black;"><b> DIVYAM NILESH DEDHIA 
+		<span style="padding-left:300px">                                            </span>
+		<a href="https://www.instagram.com/invites/contact/?i=15ubuz7tuu402&utm_content=5haigll">
+		<img class="social" id="image1" src="download (3).jpg" width="50px" style="border-radius:25px">
+		</a>
+		<span style="padding-left:50px">      </span>
+		<a href="https://www.facebook.com/divyam.dedhia/">
+		<img class="social" id="image2" src="download.jpg" width="50px" style="border-radius:25px">
+		</a>
+		<span style="padding-left:50px">      </span>
+		<a href="https://www.linkedin.com/in/divyam-dedhia-29671821a/">
+		<img class="social" id="image3" src="download (2).png" width="50px" style="border-radius:25px">
+		</a>
+		</b>
+		<h3 style="padding-left:50px; text-align:left; font-family:lucidacalligraphy; font-size:20px; color:black;">- SPACE ENTHUSIAST, BOOKWORM, GUITAR PLAYER</h3>
+		<hr>
+		<hr>
+		</h1>
+		<div style="padding-right:100px; padding-left:100px;"><img style="border-radius:50px; top:0px; float:right; width:500px; padding-top:20px" src="photo_2022-09-04_12-45-47.jpg"></div>
+		<br>
+		<p style="text-shadow: 20px 20px 20px red; font-family:lucida handwriting; padding-left:60px; font-size:60px; color:black;">Heyy,  DIVYAM HERE!</p>
+		<p style="text-shadow: 20px 20px 20px red; font-family:lucida handwriting; padding-left:60px; font-size:50px; color:black;"> Glad to see you stop bye!</p>
+		<!--<div style="padding-left:500px"><img class="image_rotate" id="image4" src="images.png" width="100px" style="border-radius:5px"></div>-->
+		<script src="dd1.js"></script>
+		<a href="Divyam Dedhia2.html"><h2 style="font-family:SWlink; padding-left:50px; color:black;">Wanna Get In Touch?</h2></a>
+		<p style="text-shadow: 20px 20px 20px yellow; font-family:mistral; padding-left:50px; font-size:80px; color:black;">Some of my hobbies include....</p>
+		<ul><p style="text-shadow: 20px 20px 20px yellow; font-family:mistral; padding-left:50px; font-size:80px; color:black;">Astrophotography:</p>
+		<div style="padding-right:50px; padding-left:50px;">
+		<img style="border-radius:50px; position:relative;" src="IMG_20220603_233757.jpg" width="400px">
+		<img style="border-radius:50px; position:relative;" src="photo_2022-09-13_17-32-50.jpg" width="400px">
+		<img style="border-radius:50px; position:relative;" src="IMG_20220603_233504.jpg" width="500px">
+		</div>
+		<p style="text-shadow: 10px 10px 10px yellow; font-family:mistral; padding-left:50px; font-size:50px; color:black;">Wait there is more...STAR TRAILS...!</p>1
+		<div style="padding-left:50px"><video src="video_2022-09-13_17-46-33.mp4" width="500px" style="align:center; border-radius:50px" controls>STAR TRAILS</video></div>
+		<p style="text-shadow: 20px 20px 20px yellow;font-family:mistral; padding-left:50px; font-size:80px">Singing:</p>
+		<p style="text-shadow: 20px 20px 20px yellow;font-family:mistral; padding-left:50px; font-size:80px">Dancing:</p>
+		</ul>
+		
+		
+		
+	</body>
+</html>
+
+###
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Divyam Dedhia</title>
+		<link rel="stylesheet" href="style.css">
+		</head>
+		<body>
+		<h1 style="text-shadow: 20px 20px 20px red; font-family:lucida calligraphy; font-size:50px; padding-left:50px;" class="social"><b> DIVYAM NILESH DEDHIA</h1>
+		<hr>
+		<hr>
+		<h2 style="font-family:SWlink; padding-left:50px">Drop your emails at...</h2>
+		<p style="font-family:Ravie; padding-left:50px">divyamdedhia@gmail.com</p>
+		<hr>
+		<h2 style="font-family:SWlink; padding-left:50px">Or Drop Your Info at...</h2>
+		<h3 style="font-family:SWlink; padding-left:50px">Name: <input id="input1" type="text"><button id="button1">Submit</button></h3>
+		<h3 style="font-family:SWlink; padding-left:50px">Call: <input id="input2" type="number"><button id="button2">Submit</button></h3>
+		<h3 style="font-family:SWlink; padding-left:50px">E-mail: <input id="input3" type="email"><button id="button3">Submit</button></h3>
+		</body>
+</html>
+
+###
+
+@keyframes change-color {
+	from {background-color:teal;}
+	to {background-color:lavender}
+}
+
+.social {
+	animation-name: change-color;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+body {
+ // background-image: url('photo_2022-09-14_11-56-40.jpg');
+  
+}
+
+@keyframes rotation {
+	from {
+        transform: rotate(-30deg);
+    }
+    to {
+        transform: rotate(30deg);
+    }
+}
+
+.image_rotate {
+	animation: rotation 1s infinite linear;
+	animation-direction: alternate;
+}
+
